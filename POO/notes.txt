@@ -1,0 +1,22 @@
+- La programmation orientée-objet est un paradigme : C'est une façon de concevoir des programmes en utilisant 
+- Les concepts tels que classes et objets.
+    - Classe             : Plan de conception, genre (Humain), (Animal)
+    - Objets             : Instanciation d'une classe : création d'un Humain 
+                            - ex : Stéphane, Julien, etc.
+    - Attributs          : Variables de classe (ex :nom, prenom, age, niveau d'étude)
+    - Propriétés         : Manière de manipuler les attributs 
+                            - (lecture seule, accessible en modification en dehors de la classe)
+    - Méthodes           : Fonctions de classe (ex: boire(), manger(), dormir(), marcher())
+    - Méthodes de classe : Fonctions de classe : Explications à venir.
+    - Méthodes Statiques : Fonctions d'une classe, mais ces fonctions sont indépendantes de la classe
+    - Héritage           : Classe enfant qui hérite d'une classe parent.
+                         : Classe chat qui hérite de la classe Animal.
+                         : Classe Homme qui hérite de la classe Humain.
+                         : Classe Voiture hérite de la classe Véhicule.
+                         : Tomate hérite de la classe Fruit.
+                         : Étudiant ou Employé hérite de la classe Personne.
+    - Encapsulation      : Protection des attributs en les rendant privées à l'extérieur de la classe
+                           On ne doit pas avoir accès aux attributs à l'extérieur de la classe via un objet créé
+        Ce qu'il faut faire : 
+                                - On va créer des accesseurs: getters, setters, deleters
+
